@@ -5,7 +5,7 @@ export default[
         cost:0,
         offering:[
             {
-                value:'✔️ Create 3 Free Mock Interview'
+                value:'✔️ Create 5 Free Mock Interview'
             },
             {
                 value:'✔️ Unlimited Retake Interview'
@@ -14,21 +14,24 @@ export default[
                 value:'❌ Practice Question'
             },
             {
-                value:'❌ Tubeguruji.Com Exlcusive App Access'
+                value:'❌ AI-Interview-Prep Exlcusive Access'
             },
             {
-                value:'❌ Email Support'
+                value:'❌ AI-Quiz-Prep Exlcusive Access'
+            },
+            {
+                value:'❌ 404-Hacks Email Support'
             },
         ]
     },
     {
         id:1,
         name:'Monthly',
-        cost:7.99,
-        paymentLink:'https://buy.stripe.com/test_28o9EjbkvgfQ8VOeUV',
+        cost:99,
+        paymentLink:'http://localhost:3000/checkout',
         offering:[
             {
-                value:'✔️ Create 3 Free Mock Interview'
+                value:'✔️ Create 5 Free Mock Interview'
             },
             {
                 value:'✔️ Unlimited Retake Interview'
@@ -37,11 +40,14 @@ export default[
                 value:'✔️ Practice Question'
             },
             {
-                value:'✔️ Tubeguruji.Com Exlcusive App Access'
+                value:'✔️ AI-Interview-Prep Exlcusive Access'
             },
             {
-                value:'✔️ Email Support'
-            }
+                value:'✔️ AI-Quiz-Prep Exlcusive Access'
+            },
+            {
+                value:'✔️ 404-Hacks Email Support'
+            },
         ]
     }
 ]

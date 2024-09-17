@@ -33,8 +33,7 @@ export default function Page() {
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-          quibusdam aperiam voluptatum.
+         Welcome to AI Interview Mocker. We help you prepare for your next interview by simulating a real interview experience. We provide you with a list of questions that are commonly asked in interviews. You can record your answers and get feedback on your performance.
         </p>
       </div>
     </section>
