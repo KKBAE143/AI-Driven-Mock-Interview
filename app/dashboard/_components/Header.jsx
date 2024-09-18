@@ -22,13 +22,13 @@ function Header() {
                     </Link>
                 </li>
                 <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${path === '/dashboard/questions' ? 'text-primary font-bold' : ''}`}>
-                    <Link href='http://localhost:3000/about/da779533-b41b-472e-bd1b-85b068194abb'>
-                        Grouple
+                    <Link href='https://ai-course-generator-six.vercel.app/'>
+                        AI Course Generator
                     </Link>
                 </li>
                 <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${path === '/dashboard/upgrade' ? 'text-primary font-bold' : ''}`}>
-                    <Link href='http://localhost:3002/dashboard'>
-                        AI Course Generator
+                    <Link href='https://ai-mockup.vercel.app/'>
+                        AI Mock Interview
                     </Link>
                 </li>
                 <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${path === '/dashboard/how' ? 'text-primary font-bold' : ''}`}>
