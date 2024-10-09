@@ -31,11 +31,17 @@ function Header() {
                         AI Mock Interview
                     </Link>
                 </li>
+                <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${path === '/dashboard/upgrade' ? 'text-primary font-bold' : ''}`}>
+                    <Link href='https://ai-mockup.vercel.app/'>
+                        AI Resume Generator
+                    </Link>
+                </li>
                 <li className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${path === '/dashboard/how' ? 'text-primary font-bold' : ''}`}>
                     <Link href='/dashboard/upgrade'>
                         Upgrade
                     </Link>
                 </li>
+                
             </ul>
             <UserButton />
         </div>
